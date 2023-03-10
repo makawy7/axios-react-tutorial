@@ -2,10 +2,10 @@ import FirstRequest from "./FirstRequest";
 
 function App() {
   return (
-    <section>
+    <main>
       <h2>App</h2>
       <FirstRequest />
-    </section>
+    </main>
   );
 }
 
