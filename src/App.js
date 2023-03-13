@@ -1,11 +1,11 @@
 import Title from "./components/Title";
-import PostRequest from "./PostRequest";
-
+import GlobalInstance from "./GlobalInstance";
+import "./axios/global";
 function App() {
   return (
     <main>
       <Title />
-      <PostRequest />
+      <GlobalInstance />
     </main>
   );
 }
