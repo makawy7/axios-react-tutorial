@@ -1,10 +1,11 @@
-import FirstRequest from "./FirstRequest";
+import Title from "./components/Title";
+import DadJokes from "./DadJokes";
 
 function App() {
   return (
     <main>
-      <h2>App</h2>
-      <FirstRequest />
+      <Title />
+      <DadJokes />
     </main>
   );
 }
