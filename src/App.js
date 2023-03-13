@@ -1,11 +1,11 @@
 import Title from "./components/Title";
-import DadJokes from "./DadJokes";
+import PostRequest from "./PostRequest";
 
 function App() {
   return (
     <main>
       <Title />
-      <DadJokes />
+      <PostRequest />
     </main>
   );
 }
