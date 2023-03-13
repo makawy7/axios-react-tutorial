@@ -1,11 +1,11 @@
 import Title from "./components/Title";
-import GlobalInstance from "./GlobalInstance";
-import "./axios/global";
+import CustomInstance from "./CustomInstance";
+// import "./axios/global";
 function App() {
   return (
     <main>
       <Title />
-      <GlobalInstance />
+      <CustomInstance />
     </main>
   );
 }
